@@ -1,0 +1,126 @@
+Number of elements per class Seat_comfort in the columns: acceptable          21158
+need improvement    20946
+good                20595
+poor                15185
+excellent           12971
+extremely poor       3463
+Name: Seat_comfort, dtype: int64
+Number of elements per class Seat_Class in the columns: Green Car    47435
+Ordinary     46944
+Name: Seat_Class, dtype: int64
+Number of elements per class Arrival_time_convenient in the columns: good                19574
+excellent           17684
+acceptable          15177
+need improvement    14990
+poor                13692
+extremely poor       4332
+Name: Arrival_time_convenient, dtype: int64
+Number of elements per class Catering in the columns: acceptable          18468
+need improvement    17978
+good                17969
+poor                13858
+excellent           13455
+extremely poor       3910
+Name: Catering, dtype: int64
+Number of elements per class Platform_location in the columns: manageable           24173
+Convinient           21912
+need improvement     17832
+Inconvinient         16449
+very convinient      13981
+very inconvinient        2
+Name: Platform_location, dtype: int64
+Number of elements per class Onboardwifi_service in the columns: good                22835
+excellent           20968
+acceptable          20118
+need improvement    19596
+poor                10741
+extremely poor         91
+Name: Onboardwifi_service, dtype: int64
+Number of elements per class Onboard_entertainment in the columns: good                30446
+excellent           21644
+acceptable          17560
+need improvement    13926
+poor                 8641
+extremely poor       2144
+Name: Onboard_entertainment, dtype: int64
+Number of elements per class Online_support in the columns: good                30016
+excellent           25894
+acceptable          15702
+need improvement    12508
+poor                10167
+extremely poor          1
+Name: Online_support, dtype: int64
+Number of elements per class Onlinebooking_Ease in the columns: good                28909
+excellent           24744
+acceptable          16390
+need improvement    14479
+poor                 9768
+extremely poor         16
+Name: Onlinebooking_Ease, dtype: int64
+Number of elements per class Onboard_service in the columns: good                27265
+excellent           21272
+acceptable          18071
+need improvement    11390
+poor                 8776
+extremely poor          4
+Name: Onboard_service, dtype: int64
+Number of elements per class Leg_room in the columns: good                28870
+excellent           24832
+acceptable          16384
+need improvement    15753
+poor                 8110
+extremely poor        340
+Name: Leg_room, dtype: int64
+Number of elements per class Baggage_handling in the columns: good                34944
+excellent           26003
+acceptable          17767
+need improvement     9759
+poor                 5764
+Name: Baggage_handling, dtype: int64
+Number of elements per class Checkin_service in the columns: good                26502
+acceptable          25803
+excellent           19641
+need improvement    11218
+poor                11137
+extremely poor          1
+Name: Checkin_service, dtype: int64
+Number of elements per class Cleanliness in the columns: good                35427
+excellent           26053
+acceptable          17449
+need improvement     9806
+poor                 5633
+extremely poor          5
+Name: Cleanliness, dtype: int64
+Number of elements per class Online_boarding in the columns: good                25533
+acceptable          22475
+excellent           21742
+need improvement    13451
+poor                11160
+extremely poor         12
+Name: Online_boarding, dtype: int64
+Mean value for numeric Seat_Comfort:  3.1608176594075363  +/-  1.3925256948851557
+Mean value for numeric Seat_Class:  5.497398785746829  +/-  0.49999588251818
+Mean value for numeric Catering:  3.1464887082837056  +/-  1.4439454441570794
+Mean value for numeric Platform_location:  2.726112624405134  +/-  1.3961920163782147
+Mean value for numeric Onboardwifi_service:  2.7517726737962245  +/-  1.319520389047092
+Mean value for numeric Onboard_entertainment:  2.617490276703299  +/-  1.3461896285346413
+Mean value for numeric Online_support:  2.480750466655354  +/-  1.3081736243853619
+Mean value for numeric Onlinebooking_Ease:  2.5298920535278775  +/-  1.3055461757600022
+Mean value for numeric Onboard_service:  2.5292009495494248  +/-  1.2685740672218615
+Mean value for numeric Onboard_service:  2.517006225540625  +/-  1.2922602612407308
+Mean value for numeric Baggage_handling:  2.3032142364464065  +/-  1.1563992318440588
+Mean value for numeric Cleanliness:  2.657600050900299  +/-  1.2603070695429248
+Mean value for numeric Cleanliness:  2.2959215029722486  +/-  1.1519877731782286
+Mean value for numeric Online_boarding:  2.6480985027497272  +/-  1.2980613406706116
+                           ID  Cleanliness  Onboard_service
+ID               7.422908e+08    66.845351        88.562653
+Cleanliness      6.684535e+01     1.327076         0.800747
+Onboard_service  8.856265e+01     0.800747         1.609280
+                       ID  Cleanliness  Onboard_service
+ID               1.000000     0.002130         0.002563
+Cleanliness      0.002130     1.000000         0.548158
+Onboard_service  0.002563     0.548158         1.000000
+                       ID  Cleanliness  Onboard_service
+ID               1.000000     0.001243         0.002189
+Cleanliness      0.001243     1.000000         0.576235
+Onboard_service  0.002189     0.576235         1.000000
